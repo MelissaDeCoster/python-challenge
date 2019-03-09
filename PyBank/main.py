@@ -6,7 +6,7 @@ import os
 import csv
 
 #Set path of CSV file to be read
-csvpath = ('C:/Users/melis/python-challenge/PyBank/Resources/budget_data.csv')
+csvpath = ('budget_data.csv')
 
 #Set initial variable balance to zero
 months = 0
@@ -88,7 +88,7 @@ print(f"Greatest Decrease in Profits: {min_profit_month} ({minchange})")
 
 #export results to Text file
 # Specify the file to write to
-output_path = os.path.join("C:/Users/melis/python-challenge/PyBank/Output/Financial Results.txt")
+output_path = os.path.join("Financial Results.txt")
 
 # Open the file using "write" mode. Specify the variable to hold the contents
 with open(output_path, 'w', newline='') as text_file:
