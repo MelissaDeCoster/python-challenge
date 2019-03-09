@@ -3,10 +3,10 @@ import os
 import csv
 
 #csvpath
-csvpath = os.path.join("C:/Users/melis/python-challenge/PyPoll/election_data.csv")
+csvpath = os.path.join("election_data.csv")
 
 #create a writable text file for the output results
-f= open("C:/Users/melis/python-challenge/PyPoll/Election Results.txt","w+")
+f= open("Election Results.txt","w+")
 
 #initialize some variables
 votes=0
